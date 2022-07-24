@@ -1,0 +1,168 @@
+/* -------MAIN -------------*/
+main {
+  margin: 2.4rem;
+  margin-top: 4rem;
+  grid-area: main;
+}
+main .date {
+  display: inline-block;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  background: white;
+  padding: 0.6rem 1.2rem;
+}
+
+main .insights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+main .insights > div {
+  background-color: aliceblue;
+  padding: 1.8rem;
+  border-radius: 1.8rem;
+  margin: 1rem;
+  box-shadow: 2px 2px #484a4c;
+}
+
+main .insights > div:hover {
+  box-shadow: none;
+}
+main .insights > div span {
+  background: #cdc2ae;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+main .insights > div .middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .insights .middle h4 {
+  font-size: 1.8rem;
+  padding-top: 1.2rem;
+}
+main .insights .chart {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+main .insights svg circle {
+  fill: none;
+  stroke: rgb(137, 230, 230);
+  stroke-width: 14;
+  stroke-linecap: round;
+  transform: translate(12px, 10px);
+  stroke-dasharray: 110;
+  stroke-dashoffset: 90;
+}
+main .insights .expenses svg circle {
+  stroke: red;
+  transform: translate(20px, 10px);
+  stroke-dasharray: 90;
+}
+main .insights .chart .number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------Tabla-----------------*/
+main .orders-table {
+  margin-top: 2rem;
+}
+main .orders-table h2 {
+  margin-bottom: 0.8rem;
+}
+
+main .orders-table table {
+  background: #e2f7ed;
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 1.8rem;
+  text-align: center;
+}
+main .orders-table table:hover {
+  box-shadow: 0 0.3rem 0.5rem;
+}
+
+main table tbody td {
+  height: 2.8rem;
+  border-bottom: 1px solid grey;
+}
+main table tbody .pending {
+  color: red;
+}
+
+/*quitar borde del último elemento*/
+main table tbody tr:last-child td {
+  border: none;
+}
+
+/*-----Responsive----*/
+
+@media only screen and (max-width: 1050px) {
+  .container {
+    width: 94%;
+    grid-template-columns: 150px auto;
+  }
+  aside .logo h2 {
+    display: none;
+  }
+  aside .sidebar h3 {
+    display: none;
+  }
+
+  aside .sidebar a {
+    width: 5.6rem;
+  }
+  main .insights {
+    grid-template-columns: 0.8fr;
+    gap: 0;
+  }
+  main .orders-table {
+    width: 94%;
+    position: absolute;
+
+    /* alinear horizontalmente elemento posicionado de forma absoluta*/
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+/*----móviles-----*/
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  aside {
+    position: fixed;
+    left: 0;
+    width: 18rem;
+    height: 100vh;
+  }
+
+  aside .sidebar h3 {
+    display: inline;
+  }
+  aside .sidebar a {
+    width: 100%;
+    height: 3rem;
+  }
+
+  main .orders-table {
+    position: relative;
+    width: 100%;
+  }
+  main .orders-table table {
+    width: 100%;
+    margin: 0;
+  }
+}
