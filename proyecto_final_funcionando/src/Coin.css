@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  height: 80px;
+  height: 120px;
   border-bottom: 1px solid #d7d7d7;
   width: 1000px;
 }
@@ -55,21 +55,34 @@
   width: 230px;
 }
 
+.crypto-graph {
+  margin-left: 30px;
+  width: 200px;
+  /* height: 30px; */
+}
+
 .crypto-percent {
   width: 100px;
 }
-.crypto-ath {
+/*.crypto-ath {
   width: 100px;
 }
 .crypto-chart {
   width: 100px;
   background-color: aqua;
-}
+}*/
 
 .red {
-  color: #f00606;
+  color: #ed4848;
 }
 
 .green {
-  color: #629362;
+  color: #75ad75;
+}
+
+/*-----Responsive----*/
+media only screen and (max-width: 600px) {
+  .crypto-row {
+    flex-direction: column;
+  }
 }
