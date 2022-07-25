@@ -29,4 +29,4 @@ Entregables necesarios
     https://share.balsamiq.com/c/gHtzzycPuPRAqfgHK7gTKT.png
 - [ ]Descripciones de problemas sin resolver u obstáculos importantes que tu equipo tuvo que superar.
 - Rutas , renderizar los gráficos de chart.js , la página compilaba bien , no daba errores pero no se veían .
-- 
+- Los mayores problemas han sido con temas accesorios al código , deployment etc ..
