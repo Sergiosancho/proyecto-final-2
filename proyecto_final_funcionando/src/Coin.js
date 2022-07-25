@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
 
 import './Coin.css';
@@ -13,7 +13,7 @@ const Coin = ({
   priceChange,
   sparkLine,
 }) => {
-  const [data, setData] = React.useState({
+  const [data, setData] =useState({
     labels: sparkLine.map((item) => item),
     datasets: [
       {
