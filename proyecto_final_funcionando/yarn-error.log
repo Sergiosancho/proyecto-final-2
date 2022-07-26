@@ -1,0 +1,74 @@
+Arguments: 
+  /Users/sergio/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js start
+
+PATH: 
+  /Users/sergio/.rvm/gems/ruby-2.1.2/bin:/Users/sergio/.rvm/gems/ruby-2.1.2@global/bin:/Users/sergio/.rvm/rubies/ruby-2.1.2/bin:/Users/sergio/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/sergio/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sergio/Desktop/development/proyecto_final_funcionando/package.json: Unexpected token < in JSON at position 30
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "proyecto_final",
+  <<<<<<< HEAD
+    "version": "0.1.0",
+  =======
+    "version": "0.0.1",
+  >>>>>>> 1a090e56e1808b930ff93fcc0d826659a39776f7
+    "private": true,
+    "dependencies": {
+      "@dhaiwat10/react-link-preview": "^1.14.2",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "axios": "^0.27.2",
+      "chart.js": "^3.8.0",
+      "react": "^16.13.1",
+      "react-chartjs-2": "^4.3.1",
+      "react-dom": "^16.13.1",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "^5.0.1",
+      "react-sparklines": "^1.7.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
