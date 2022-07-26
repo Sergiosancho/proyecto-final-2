@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
 
 import './Coin.css';
@@ -13,7 +13,7 @@ const Coin = ({
   priceChange,
   sparkLine,
 }) => {
-  const [data, setData] = React.useState({
+  const [data, setData] = useState({
     labels: sparkLine.map((item) => item),
     datasets: [
       {
@@ -55,10 +55,12 @@ const Coin = ({
           </div>
           <div className="crypto-graph">
             <Line
+              //renderizas el gráfico pasándole las opciones que te interesan de entre todas las disponibles
               type="line"
               data={data}
               options={{
                 responsive: true,
+
                 plugins: {
                   title: {
                     display: false,

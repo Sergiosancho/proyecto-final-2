@@ -1,8 +1,9 @@
 {
-  "name": "crypto-api-v1",
+  "name": "proyecto_final",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@dhaiwat10/react-link-preview": "^1.14.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,6 +12,7 @@
     "react": "^16.13.1",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "react-sparklines": "^1.7.0"
   },

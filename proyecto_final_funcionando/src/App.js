@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import chart from './components/chart';
+//import { Router, Route, Switch, link } from 'react-router-dom ';
+import NewsFeed from './components/NewsFeed';
 import {
   Chart,
   ArcElement,
@@ -72,7 +73,7 @@ function App() {
   //labels: [], //por ejemplo años
   //datasets: [],
   //});
-  // const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=30&page=1&sparkline=false';
+
   const url =
     'https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=30&page=1&sparkline=true';
 
@@ -104,14 +105,14 @@ function App() {
     <>
       <div className="crypto-app">
         <div className="crypto-search">
-          <h1 className="crypto-text">Search a cryptocurrency</h1>
+          <h1 className="crypto-text">Filtrar criptomoneda</h1>
 
           <form>
             <input
               className="crypto-input"
               type="text"
               onChange={handleChange}
-              placeholder="Search"
+              placeholder="filtrar"
             />
           </form>
         </div>
@@ -131,6 +132,7 @@ function App() {
           );
         })}
       </div>
+      <NewsFeed />
     </>
   );
 }
