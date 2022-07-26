@@ -9,8 +9,7 @@ function App() {
     <Router>
       <nav>
         <Link to="/"> Home </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/newsfeed"> Newsfeed </Link>
+        <Link to="/.pages/Newsfeed"> Newsfeed </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
