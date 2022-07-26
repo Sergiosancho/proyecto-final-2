@@ -13,7 +13,11 @@ const Coin = ({
   priceChange,
   sparkLine,
 }) => {
+<<<<<<< HEAD
   const [data, setData] = useState({
+=======
+  const [data, setData] =useState({
+>>>>>>> c16539ed8a4f32e95a793f6ed1d6f7c54c51764c
     labels: sparkLine.map((item) => item),
     datasets: [
       {

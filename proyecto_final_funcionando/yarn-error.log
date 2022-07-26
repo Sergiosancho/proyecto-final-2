@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/sergio/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js start
+  /Users/sergio/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js build
 
 PATH: 
   /Users/sergio/.rvm/gems/ruby-2.1.2/bin:/Users/sergio/.rvm/gems/ruby-2.1.2@global/bin:/Users/sergio/.rvm/rubies/ruby-2.1.2/bin:/Users/sergio/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/sergio/.rvm/bin
@@ -28,7 +28,7 @@ npm manifest:
     "version": "0.1.0",
   =======
     "version": "0.0.1",
-  >>>>>>> 1a090e56e1808b930ff93fcc0d826659a39776f7
+  >>>>>>> c16539ed8a4f32e95a793f6ed1d6f7c54c51764c
     "private": true,
     "dependencies": {
       "@dhaiwat10/react-link-preview": "^1.14.2",
