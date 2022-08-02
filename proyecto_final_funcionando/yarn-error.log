@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/sergio/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js build
+  /Users/sergio/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js
 
 PATH: 
   /Users/sergio/.rvm/gems/ruby-2.1.2/bin:/Users/sergio/.rvm/gems/ruby-2.1.2@global/bin:/Users/sergio/.rvm/rubies/ruby-2.1.2/bin:/Users/sergio/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/sergio/.rvm/bin

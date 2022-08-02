@@ -1,10 +1,6 @@
 {
   "name": "proyecto_final",
-<<<<<<< HEAD
   "version": "0.1.0",
-=======
-  "version": "0.0.1",
->>>>>>> c16539ed8a4f32e95a793f6ed1d6f7c54c51764c
   "private": true,
   "dependencies": {
     "@dhaiwat10/react-link-preview": "^1.14.2",
@@ -31,7 +27,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      "0.2%",
       "not dead",
       "not op_mini all"
     ],
